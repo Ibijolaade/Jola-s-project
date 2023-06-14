@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Georgia;
+  background-color: rgb(248, 248, 216);
+}
+
+h1{
+    text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  font-family: Georgia;
+  text-align: left;
+  font-size: large;
+  font-style: oblique;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    font-family: Georgia;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 248, 216);
+    padding: 20px;
+    font-family: Georgia;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+
+
+<body>
+
+    <nav>
+
+        <ul class="nav-links">
+    
+          <li><a class="active" href="index.html">Home</a></li>
+    
+          <li><a href="about.html">About</a></li>
+    
+          <li><a href="services.html">Services</a></li>
+    
+          <li><a href="Login.html">Login</a></li>
+    
+          <li><a href="Gallery.html">Gallery</a></li>
+    
+        </ul>   
+    </nav> 
+
+<!-- Header -->
+<div class="header">
+  <h1>The Power of Health and Wellness</h1>
+  <p>Welcome to Jay health wellness tribe gallery! I created this gallery to share my passion for health and wellness with others. I believe that everyone has the power to improve their health and well-being, and I hope that this gallery will provide you with the inspiration and information you need to make healthy choices.
+
+    The gallery features a variety of content, including images and quotes about health and wellness. I hope that you will find something in the gallery that interests you and inspires you to take action to improve your health and well-being.
+    
+    Thank you for visiting my gallery! I hope you enjoy it.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="./yoga 3.jpg" style="width:100%">
+    <img src="./yoga1.jpg" style="width:100%">
+    <img src="./yoga2.jpg" style="width:100%">
+    <img src="./picture.jpg" style="width:100%">
+    <img src="./wellness.jpg" style="width:100%">
+    <img src="./mind.webp" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="./about1.jpg" style="width:100%">
+    <img src="./about2.jpg" style="width:100%">
+    <img src="./about3.jpg" style="width:100%">
+    <img src="./about 4.jpg" style="width:100%">
+    <img src="./about 5.jpg" style="width:100%">
+    <img src="./about 6.jpg" style="width:100%">
+  </div> 
+   
+  <div class="column">
+    <img src="./gallery1.jpg" style="width:100%">
+    <img src="./gallery 2.jpg" style="width:100%">
+    <img src="./gallery 3.jpg" style="width:100%">
+    <img src="./gallery 4.jpg" style="width:100%">
+    <img src="./gallery 5.jpg" style="width:100%">
+    <img src="./gallery 6.jpg" style="width:100%">
+  </div>
+  
+  <div class="column">
+    <img src="./yoga 3.jpg" style="width:100%">
+    <img src="./h and w.png" style="width:100%">
+    <img src="./happiness.jpg" style="width:100%">
+    <img src="./kindness.jpg" style="width:100%">
+    <img src="./health is wealth 2.jpg" style="width:100%">
+    <img src="./happy kid 3.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
